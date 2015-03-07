@@ -31,7 +31,7 @@ import javax.inject.Named;
 @ApplicationScoped
 public class IB_Engine extends Engine implements EWrapper {
     private ArrayList<Intrument> pairs;
-    private int port = 7933; // connection port number
+    private int port = 4444; // connection port number
     private String description = "This is IB API";
 
 

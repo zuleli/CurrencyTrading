@@ -7,8 +7,11 @@ package com.sms.forex.core;
 
 import javax.swing.JFrame;
 import javax.swing.JButton;
+
+import java.awt.Dimension;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.LayoutStyle.ComponentPlacement;
@@ -50,6 +53,7 @@ public class StartUp extends JFrame {
 							.addComponent(btnTradingSation))))
 		);
 		getContentPane().setLayout(groupLayout);
+		
 	}
 
 	public static void main(String[] args) {
