@@ -16,9 +16,12 @@ This project is aimed to achieve the following goals:
 
 3. The above feature can also be digitalized(see "watching.png" snapshot). But this digitalized feature is different from chart mentioned above. The chart displays individual currency only. Digitaliezed little window can monitor each idividual currency pair. One monitors individual currency, the other monitors individual currency pair. This is the difference. When there is a big move in market, it can make siren sound to alert traders. This feature uses core Java only.
 
-4. One unique feature about this program is the capacity to obtain the critical economic data as soon as possible(see snapshot infoSeach1,2,3). When important economic data,such as center bank interest rate decision,CPI, employment data..etc,comes, it can cause huge market reaction.In this situation, internet trafic frequently is jamed and it is very hard to get the latest information. Normally it can take a trader up to 1 to 2 minutes to get the latest data release. But it is already too late when a trader finally get the data release.This program can monitor up to 11 news sources simitanously and whenever one of the sources get the data,it can notify trader immediately and help trader making trading decision quickly. This feature makes intensive use of multiple thread java technology, Java http API and socket API.
+4. One unique feature about this program is the capacity to obtain the critical economic data as soon as possible(see snapshot infoSeach1,2,3). When important economic data,such as center bank interest rate decision,CPI, employment data..etc,comes, it can cause huge market reaction.In this situation, internet trafic frequently is jamed and it is very hard to get the latest information. Normally it can take a trader up to 1 to 2 minutes to get the latest data release. But it is already too late when a trader finally get the data release.This program can monitor up to 11 news sources simitanously and whenever one of the sources gets the data,it can notify trader immediately and help trader making trading decision quickly. This feature makes intensive use of multiple thread java technology, Java http API and socket API. It also uses other third party APIs,such as PDF API and Excel API to extract PDF and Excel file from internet.
 
 5. Another feature of this program is to manage previous economic data. All the economic data release can be automatically downloaded and stored in local database and be classified(see snapshot previousdata.png). This feature uses SQL,Java JDBC,Swing,etc.
+
+6.There are some other features I am currently considering,for example,trading opportunity investigating is quite possible! If time allows I will work on it.
+
 
 
 
